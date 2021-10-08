@@ -2,10 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap(int *xp, int *yp)
+void swap(int *a, int *yp)
 {
-    int temp = *xp;
-    *xp = *yp;
+    int temp = *a;
+    *a = *yp;
     *yp = temp;
 }
 
