@@ -28,12 +28,15 @@ void printArray(int arr[], int size)
 	for (i = 0; i < size; i++)
 		cout << arr[i] << " ";
 	cout << endl;
+	cout <<< endl;
 }
 
 // Driver code
 int main()
 {
-	int arr[] = {64, 34, 25, 12, 22, 11, 90, 5, 6, 7, 50, 32, 434, 1, 3};
+
+	int arr[] = {64, 34, 25, 12, 22, 11, 90, 7, 8, 9, 1, 2, 3 , 6 , 5};
+
 	int n = sizeof(arr)/sizeof(arr[0]);
 	bubbleSort(arr, n);
 	cout<<"Sorted array: \n";
