@@ -42,6 +42,7 @@ int main()
 	int n = sizeof(arr)/sizeof(arr[0]);
 	bubbleSort(arr, n);
 	cout<<"Sorted array: \n";
+	cout<<"Sorted array is: \n";
 	printArray(arr, n);
 	cout<<"HEllo hackober "<<767467+44;
 	return 0;
