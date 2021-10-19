@@ -2,10 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap(int *a, int *yp)
+void swap(int *Z, int *yp)
 {
-    int temp = *a;
-    *a = *yp;
+    int temp = *Z;
+    *Z = *yp;
     *yp = temp;
 }
 
@@ -49,4 +49,4 @@ int main()
 	return 0;
 }
 
-// This code is contributed by rathbhupendra
+// This code is contributed by SHAKTI
