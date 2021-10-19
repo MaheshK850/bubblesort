@@ -3,10 +3,10 @@
 #include <algorithm.h>
 using namespace std;
 
-void Arrayswap(int *a, int *yp)
+
 {
-    int temp = *a;
-    *a = *yp;
+    int temp = *Z;
+    *Z = *yp;
     *yp = temp;
 }
 
@@ -50,4 +50,4 @@ int main()
 	return 0;
 }
 
-// This code is contributed by HIMA
+
