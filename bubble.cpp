@@ -1,8 +1,9 @@
 // C++ program for implementation of Bubble sort
 #include <bits/stdc++.h>
+#include <algorithm.h>
 using namespace std;
 
-void swap(int *Z, int *yp)
+
 {
     int temp = *Z;
     *Z = *yp;
@@ -18,11 +19,11 @@ void bubbleSort(int arr[], int n)
 	// Last i elements are already in place
 	for (j = 0; j < n-i-1; j++)
 		if (arr[j] > arr[j+1])
-			swap(&arr[j], &arr[j+1]);
+			Arrayswap(&arr[j], &arr[j+1]);
 }
 
 /* Function to print an array */
-void printArray(int arr[], int size)
+void printTheArray(int arr[], int size)
 {
 	int i;
 	for (i = 0; i < size; i++)
@@ -36,7 +37,7 @@ int main()
 {
 
 
-	int arr[] = {64, 34, 25, 12, 22, 11, 90, 7, 8, 9, 1, 2, 3 , 6 , 5};
+	int arr[] = {64, 34, 25, 12, 22, 11, 90, 7, 8, 9, 1, 2, 3 , 7,8};
 
 //Hii there
 	int n = sizeof(arr)/sizeof(arr[0]);
@@ -44,9 +45,9 @@ int main()
 
 	cout<<"Sorted array is: \n";
 
-	printArray(arr, n);
+	printTheArray(arr, n);
 	cout<<"HEllo hackober "<<767467+44;
 	return 0;
 }
 
-// This code is contributed by SHAKTI
+
