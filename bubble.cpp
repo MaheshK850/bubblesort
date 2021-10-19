@@ -1,5 +1,6 @@
 // C++ program for implementation of Bubble sort
 #include <bits/stdc++.h>
+#include <algorithm.h>
 using namespace std;
 
 void swap(int *a, int *yp)
