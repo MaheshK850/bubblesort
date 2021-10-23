@@ -21,7 +21,7 @@ void bubbleSort(int arr[], int n)
 		if (arr[j] > arr[j+1])
 			Arrayswap(&arr[j], &arr[j+1]);
 }
-
+/* bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order */
 /* Function to print an array */
 void printTheArray(int arr[], int size)
 {
@@ -29,6 +29,7 @@ void printTheArray(int arr[], int size)
 	for (i = 0; i < size; i++)
 		printf("%d ", arr[i]);
     printf("\n");
+
 
 // Driver code
 int main()
