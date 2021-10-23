@@ -5,9 +5,9 @@ using namespace std;
 
 
 {
-    int temp = *Z;
-    *Z = *yp;
-    *yp = temp;
+    int temp = *l;
+    *l = *mn;
+    *mn = temp;
 }
 
 // A function to implement bubble sort
