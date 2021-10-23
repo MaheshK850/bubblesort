@@ -31,6 +31,9 @@ void printTheArray(int arr[], int size)
 	cout << endl;
 	cout <<< endl;
 }
+void nothingg(){
+	return;
+}
 
 // Driver code
 int main()
