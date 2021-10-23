@@ -29,10 +29,7 @@ void printTheArray(int arr[], int size)
 	for (i = 0; i < size; i++)
 		printf("%d ", arr[i]);
     printf("\n");
-}
-void nothingg(){
-	return;
-}
+
 
 // Driver code
 int main()
