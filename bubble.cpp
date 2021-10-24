@@ -36,7 +36,7 @@ int main()
 {
 
 
-	int array[] = {64, 34, 25, 12, 22, 11, 90, 7, 8, 9, 1, 2, 3 , 7,8};
+	int array[] = {64, 34, 25, 12, 22, 11, 90, 1, 2, 3 , 7,8};
 
 //Hii there
 	int n = sizeof(array)/sizeof(array[0]);
