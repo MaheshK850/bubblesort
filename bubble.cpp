@@ -13,21 +13,21 @@ using namespace std;
 // A function to implement bubble sort
 void bubbleSort(int array[], int n)
 {
-	int i, j;
-	for (i = 0; i < n-1; i++)	
+	int l, m;
+	for (l = 0; l < n-1; l++)	
 	
 	// Last i elements are already in place
-	for (j = 0; j < n-i-1; j++)
-		if (array[j] > array[j+1])
-			Arrayswap(&array[j], &array[j+1]);
+	for (m = 0; m < n-i-1; m++)
+		if (array[m] > array[m+1])
+			Arrayswap(&array[m], &array[m+1]);
 }
 /* bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order */
 /* Function to print an array */
 void printTheArray(int array[], int size)
 {
-	int i;
-	for (i = 0; i < size; i++)
-		printf("%d ", array[i]);
+	int l;
+	for (l = 0; l < size; l++)
+		printf("%d ", array[l]);
     printf("\n");
 
 
